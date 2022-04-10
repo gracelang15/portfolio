@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.projects{
+    background-color: #1A1A1D;
+}
+
+.card-text{
+    color: black
+}
+
+.card-title{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.card {
+    max-width: 540px;
+    min-height: 200px;
+    max-height: 500px;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+}
+
+.card-body span{
+    background-color: #e51400 !important;
+    float: right;
+}
+
+.btn.btn-custom{
+    background-color:#C3073F;
+    color: white
+}
+

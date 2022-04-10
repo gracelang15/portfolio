@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.main {
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-color: #1A1A1D;
+}
+
+h2{
+    font-family: 'Source Code Pro', monospace;
+    color: white
+}
+
+.title{
+    font-size: 50px;
+}
+
+h1,p{
+    font-family: 'Source Code Pro', monospace;
+    color: white 
+}
