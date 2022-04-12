@@ -18,7 +18,7 @@ function App() {
   return ( 
     <>
       <NavBar></NavBar>
-          <BrowserRouter>
+          <BrowserRouter basename={process.env.PUBLIC_URL}>
               <Routes>
                 <Route path="/projects" element={<Projects />} />
                 <Route exact path="/" element={<Landing/>}/>
