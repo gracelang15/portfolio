@@ -7,6 +7,12 @@ import Footer from './Components/footer/Footer';
 import AboutMe from './Components/Landing/AboutMe';
 import Projects from './Components/Projects/Projects';
 import Landing from './Components/Landing/Landing';
+import RNA from './Components/Projects/pdfs/RNA';
+import CityBike from './Components/Projects/pdfs/CityBike';
+import ImageRetrieval from './Components/Projects/pdfs/ImageRetrieval';
+import Referral from './Components/Projects/pdfs/Referral';
+import Shocktube from './Components/Projects/pdfs/Shocktube';
+import EVs from './Components/Projects/pdfs/EVs';
 
 function App() {
   return ( 
@@ -17,6 +23,12 @@ function App() {
                 <Route path="/projects" element={<Projects />} />
                 <Route exact path="/" element={<Landing/>}/>
                 <Route path="/contact" element={<Contact/>}/>
+                <Route path="/rnaproject" element={<RNA/>}/>
+                <Route path="/citybikeproject" element={<CityBike/>}/>
+                <Route path="/imageretrievalproject" element={<ImageRetrieval/>}/>
+                <Route path="/referralproject" element={<Referral/>}/>
+                <Route path="/shocktubeproject" element={<Shocktube/>}/>
+                <Route path="/evproject" element={<EVs/>}/>
               </Routes>
           </BrowserRouter>
         <Footer></Footer>

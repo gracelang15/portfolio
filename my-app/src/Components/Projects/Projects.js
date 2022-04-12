@@ -15,7 +15,7 @@ export default function Projects() {
     <Card.Text>
       Predicted the secondary structure of RNA sequences using dynamic programming. 
     </Card.Text>
-    <Button variant="custom">Learn More</Button>
+    <Button variant="custom" href='/rnaproject'>Learn More</Button>
   </Card.Body>
 </Card>
 </Col>
@@ -27,7 +27,7 @@ export default function Projects() {
     <Card.Text>
       Modeled the flow of traffic at three city bike stations in NYC.
     </Card.Text>
-    <Button variant="custom">Learn More</Button>
+    <Button variant="custom" href='/citybikeproject'>Learn More</Button>
   </Card.Body>
 </Card>
 </Col>
@@ -39,7 +39,7 @@ export default function Projects() {
     <Card.Text>
       Predicted the top 20 images that best match a given query. 
     </Card.Text>
-    <Button variant="custom">Learn More</Button>
+    <Button variant="custom" href='/imageretrievalproject'>Learn More</Button>
   </Card.Body>
 </Card>
 </Col>
@@ -51,7 +51,7 @@ export default function Projects() {
     <Card.Text>
       Developed a product idea to help local businesses hire hourly workers.
     </Card.Text>
-    <Button variant="custom">Learn More</Button>
+    <Button variant="custom" href='/referralproject'>Learn More</Button>
   </Card.Body>
 </Card>
 </Col>
@@ -63,7 +63,7 @@ export default function Projects() {
     <Card.Text>
       Modeled the flow gas in a shocktube to analyze its performance.
     </Card.Text>
-    <Button variant="custom">Learn More</Button>
+    <Button variant="custom" href='/shocktubeproject'>Learn More</Button>
   </Card.Body>
 </Card>
 </Col>
@@ -75,7 +75,7 @@ export default function Projects() {
     <Card.Text>
       Built a proof of concept autonomous charger for EVs.
     </Card.Text>
-    <Button variant="custom">Learn More</Button>
+    <Button variant="custom" href='/evproject'>Learn More</Button>
   </Card.Body>
 </Card>
 </Col>

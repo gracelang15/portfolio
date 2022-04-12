@@ -1,20 +1,27 @@
 import React from 'react'
 import "./Landing.css"
-import { Navbar, Nav, Container, Button, Image} from 'react-bootstrap'
+import { Navbar, Nav, Container, Button, Image } from 'react-bootstrap'
 import AboutMe from './AboutMe'
+import Typewriter from "typewriter-effect";
 
 export default function Landing() {
   return (
     <div className="main">
       <Container>
-        <h2 className="title text-center mt-5">
-          Hi, I'm Grace Lang.
-        </h2>
+        <div className="typewriter text-center">
+        <Typewriter
+          onInit={(typewriter) => {
+            typewriter
+              .typeString("Hi, I'm Grace Lang.")
+              .start();
+          }}
+        />
+        </div>
         <div className="text-center mt-5">
-        <Image thumbnail="true" height="250" width="200" src={require("./headshot.jpg")} />
+          <Image thumbnail="true" height="250" width="200" src={require("./headshot.jpg")} />
         </div>
         <>
-      <style type="text/css">
+          <style type="text/css">
             {`
 
             @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
@@ -30,13 +37,13 @@ export default function Landing() {
             }
             `}
           </style>
-          <div className = "col-md-12 text-center mt-4">
-          <Button variant="custom" size="xxl" href='/projects'>
-            View Projects
-          </Button>
+          <div className="col-md-12 text-center mt-4">
+            <Button variant="custom" size="xxl" href='/projects'>
+              View Projects
+            </Button>
           </div>
-          </>
-            <AboutMe></AboutMe>
+        </>
+        <AboutMe></AboutMe>
       </Container>
     </div>
   )
