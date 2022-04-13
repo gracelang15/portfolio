@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as BrowserRouter, Routes, Route, HashRouter} from 'react-router-dom'
+import { BrowserRouter as BrowserRouter, Routes, Route} from 'react-router-dom'
 import NavBar from './Components/NavBar/NavBar';
 import React from 'react';
 import Contact from './Components/Contact';
@@ -18,7 +18,7 @@ function App() {
   return ( 
     <>
       <NavBar></NavBar>
-          <HashRouter>
+          <BrowserRouter basename="/portfolio">
               <Routes>
                 <Route path="/projects" element={<Projects />} />
                 <Route exact path="/" element={<Landing/>}/>
@@ -30,7 +30,7 @@ function App() {
                 <Route path="/shocktubeproject" element={<Shocktube/>}/>
                 <Route path="/evproject" element={<EVs/>}/>
               </Routes>
-          </HashRouter>
+          </BrowserRouter>
         <Footer></Footer>
     </>
   );

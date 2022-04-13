@@ -8,10 +8,10 @@ export default function NavBar() {
     <>
       <Navbar className="navbar">
     <Container>
-    <Navbar.Brand href="/">Grace Lang</Navbar.Brand>
+    <Navbar.Brand href="/portfolio">Grace Lang</Navbar.Brand>
     <Nav className="me-auto">
-      <Nav.Link href="/">Home</Nav.Link>
-      <Nav.Link href="/projects">Projects</Nav.Link>
+      <Nav.Link href="/portfolio">Home</Nav.Link>
+      <Nav.Link href="/portfolio/projects">Projects</Nav.Link>
     </Nav>
     </Container>
   </Navbar>

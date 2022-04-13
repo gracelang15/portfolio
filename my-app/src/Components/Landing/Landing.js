@@ -38,7 +38,7 @@ export default function Landing() {
             `}
           </style>
           <div className="col-md-12 text-center mt-4">
-            <Button variant="custom" size="xxl" href='/projects'>
+            <Button variant="custom" size="xxl" href='/portfolio/projects'>
               View Projects
             </Button>
           </div>
