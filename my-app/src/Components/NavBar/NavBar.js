@@ -11,7 +11,8 @@ export default function NavBar() {
     <Navbar.Brand href="/portfolio">Grace Lang</Navbar.Brand>
     <Nav className="me-auto">
       <Nav.Link href="/portfolio">Home</Nav.Link>
-      <Nav.Link href="/portfolio/projects">Projects</Nav.Link>
+      <Nav.Link href="/portfolio/#/projects">Projects</Nav.Link>
+      <Nav.Link href="/portfolio/#/resume">Resume</Nav.Link>
     </Nav>
     </Container>
   </Navbar>
