@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.880d6673.css",
-    "main.js": "/portfolio/static/js/main.d38ef03a.js",
+    "main.css": "/portfolio/static/css/main.00afd162.css",
+    "main.js": "/portfolio/static/js/main.1de15639.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/citybike.pdf": "/portfolio/static/media/citybike.4df0cfb6e9ce075e7f71.pdf",
     "static/media/referral.pdf": "/portfolio/static/media/referral.5d0dd294859da061b23b.pdf",
@@ -16,13 +16,14 @@
     "static/media/Image.png": "/portfolio/static/media/Image.fb702530ba87d589eaf3.png",
     "static/media/referral.png": "/portfolio/static/media/referral.24a0ceae850de0a01f1b.png",
     "static/media/RNA.png": "/portfolio/static/media/RNA.feccbf357a9fac94b035.png",
+    "static/media/Resume2.pdf": "/portfolio/static/media/Resume2.dbc08633a1ad7e09e858.pdf",
     "index.html": "/portfolio/index.html",
-    "main.880d6673.css.map": "/portfolio/static/css/main.880d6673.css.map",
-    "main.d38ef03a.js.map": "/portfolio/static/js/main.d38ef03a.js.map",
+    "main.00afd162.css.map": "/portfolio/static/css/main.00afd162.css.map",
+    "main.1de15639.js.map": "/portfolio/static/js/main.1de15639.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.880d6673.css",
-    "static/js/main.d38ef03a.js"
+    "static/css/main.00afd162.css",
+    "static/js/main.1de15639.js"
   ]
 }
