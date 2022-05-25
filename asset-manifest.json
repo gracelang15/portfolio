@@ -1,29 +1,33 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.00afd162.css",
-    "main.js": "/portfolio/static/js/main.1de15639.js",
+    "main.css": "/portfolio/static/css/main.7aa98881.css",
+    "main.js": "/portfolio/static/js/main.94c23194.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/citybike.pdf": "/portfolio/static/media/citybike.4df0cfb6e9ce075e7f71.pdf",
     "static/media/referral.pdf": "/portfolio/static/media/referral.5d0dd294859da061b23b.pdf",
     "static/media/headshot.jpg": "/portfolio/static/media/headshot.95e70f32ed483f795b7c.jpg",
+    "static/media/equitive.pdf": "/portfolio/static/media/equitive.22500788f1ae0f497808.pdf",
     "static/media/shocktube.pdf": "/portfolio/static/media/shocktube.01192ae622c3ea647106.pdf",
     "static/media/rna.pdf": "/portfolio/static/media/rna.dc582df29ebd469daaec.pdf",
     "static/media/EVs.pdf": "/portfolio/static/media/EVs.2e932a84d4536d50d115.pdf",
     "static/media/imageRetrieval.pdf": "/portfolio/static/media/imageRetrieval.fbd9a1b65b13477045e2.pdf",
     "static/media/VSGC.png": "/portfolio/static/media/VSGC.e73899cefcdff778322d.png",
     "static/media/EVS.png": "/portfolio/static/media/EVS.b42d46a7f8311d2d5444.png",
+    "static/media/equitive.png": "/portfolio/static/media/equitive.d04633e6371f5c6f6f97.png",
     "static/media/CityBike.png": "/portfolio/static/media/CityBike.5dac897045c067feebb0.png",
+    "static/media/genderwagegap.pdf": "/portfolio/static/media/genderwagegap.bd310f43bad393b204b3.pdf",
     "static/media/Image.png": "/portfolio/static/media/Image.fb702530ba87d589eaf3.png",
     "static/media/referral.png": "/portfolio/static/media/referral.24a0ceae850de0a01f1b.png",
+    "static/media/gendergap.png": "/portfolio/static/media/gendergap.88fb95f4fc9732c01ec6.png",
     "static/media/RNA.png": "/portfolio/static/media/RNA.feccbf357a9fac94b035.png",
     "static/media/Resume2.pdf": "/portfolio/static/media/Resume2.dbc08633a1ad7e09e858.pdf",
     "index.html": "/portfolio/index.html",
-    "main.00afd162.css.map": "/portfolio/static/css/main.00afd162.css.map",
-    "main.1de15639.js.map": "/portfolio/static/js/main.1de15639.js.map",
+    "main.7aa98881.css.map": "/portfolio/static/css/main.7aa98881.css.map",
+    "main.94c23194.js.map": "/portfolio/static/js/main.94c23194.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00afd162.css",
-    "static/js/main.1de15639.js"
+    "static/css/main.7aa98881.css",
+    "static/js/main.94c23194.js"
   ]
 }
