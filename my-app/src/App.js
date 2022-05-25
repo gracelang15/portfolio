@@ -14,6 +14,8 @@ import Referral from './Components/Projects/pdfs/Referral';
 import Shocktube from './Components/Projects/pdfs/Shocktube';
 import EVs from './Components/Projects/pdfs/EVs';
 import Resume from './Components/Projects/pdfs/Resume';
+import Equitive from './Components/Projects/pdfs/Equitive';
+import GenderGap from './Components/Projects/pdfs/GenderGap';
 
 function App() {
   return ( 
@@ -30,6 +32,8 @@ function App() {
                 <Route path="/referralproject" element={<Referral/>}/>
                 <Route path="/shocktubeproject" element={<Shocktube/>}/>
                 <Route path="/evproject" element={<EVs/>}/>
+                <Route path="/equitiveproject" element={<Equitive/>}/>
+                <Route path="/wagegapproject" element={<GenderGap/>}/>
                 <Route path="/resume" element={<Resume/>}/>
               </Routes>
           </Router>

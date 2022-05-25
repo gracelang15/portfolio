@@ -4,6 +4,10 @@
     background-color: #1A1A1D;
 }
 
+.col{
+    flex: 0 0 33.3333333%;
+}
+
 .card-text{
     color: black
 }
@@ -12,10 +16,9 @@
     font-family: 'Source Code Pro', monospace;
 }
 
-.card {
-    max-width: 540px;
-    min-height: 200px;
-    max-height: 500px;
+.card{
+    margin-left: 20px!important;
+    height: "45vw"!important
 }
 
 .card-image {
