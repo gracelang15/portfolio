@@ -4,9 +4,7 @@ import './Landing.css'
 export default function AboutMe() {
   return (
     <div>
-        <p className="mt-5">I am a Master of Engineering in Operations Research and Information Engineering Student at Cornell Tech in NYC.
-            I am graduating this May 2022. I take classes in machine learning, optimization, modeling, and statistical analysis. Prior to my master's, I worked 
-            for 2 years in the software industry, and received my bachelor's in engineering from the Univerity of Virginia. 
+        <p className="mt-5">I’m a data and machine learning consultant with 2+ years experience in the technology industry. I’ve worked on building high quality data features, and more recently on data analytics and machine learning with the AWS cloud. I’m passionate about data science and optimization. Through my recent master’s in Operations Research and Information Engineering, I’ve become very interested in applying statistical techniques and machine learning to logistics problems. 
         </p>
     </div>
   )
